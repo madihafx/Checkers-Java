@@ -31,7 +31,7 @@ public class CSFinalCheckers{
             System.out.println("\tA king can be captured like a regular piece, must capture when possible, and must make consecutive jumps when possible.");
             Thread.sleep(1000);
             System.out.println("\nAgain, you win by capturing all of your opponent's pieces or by blocking all their pieces, leaving them with no other moves and needing to forfeit.");
-            System.out.print("Have you understood the directions? (Y/N) ");
+            System.out.print("\nHave you understood the directions? (Y/N) ");
             directions = sc.next();
 
             if(directions.equalsIgnoreCase("Y")){
