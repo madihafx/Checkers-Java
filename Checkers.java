@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class CSFinalCheckers{
+public class Checkers{
     public static void main(String args[])
     throws java.lang.InterruptedException{
         Scanner sc = new Scanner(System.in);
