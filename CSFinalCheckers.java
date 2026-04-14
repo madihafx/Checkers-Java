@@ -11,7 +11,7 @@ public class CSFinalCheckers{
     throws java.lang.InterruptedException{
         Scanner sc = new Scanner(System.in);
 
-        // Declare and initialize variables
+        // Declare and initialize the variables
         String directions;
         int noCount=8;
         boolean direct=false;
