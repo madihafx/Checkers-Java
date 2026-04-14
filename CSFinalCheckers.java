@@ -11,6 +11,7 @@ public class CSFinalCheckers{
     throws java.lang.InterruptedException{
         Scanner sc = new Scanner(System.in);
 
+        // Declare and initialize variables
         String directions;
         int noCount=8;
         boolean direct=false;
@@ -18,6 +19,7 @@ public class CSFinalCheckers{
         String seen[][]=new String [9][9];  //8 rows, 8 columns but it's for what the player sees
         int chosenSRow, intChosenSColumn, chosenERow, intChosenEColumn;
         int turn=0;
+
         // turn=0 (black is playing), when turn=1 white is playing
         String chosenSColumn, chosenEColumn;
         boolean whiteCanProceed = false;
